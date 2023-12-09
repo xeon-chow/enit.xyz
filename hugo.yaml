@@ -1,28 +1,58 @@
-baseurl: "/"
+baseurl: "https://enit.xyz/"
 languageCode: "en-US"
-title: "A Hugo theme inspired by paged.js"
+title: "Xeon Chow"
 theme: "hugo-paged"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
+hasCJKLanguage: true
+enableEmoji: true
 
 outputs:
   home: [html, rss, json]
 
+permalinks:
+  cn: "/:sections/:year/:month/:slug/"
+  en: "/:sections/:year/:month/:slug/"
+
 menu:
   main:
-    - name: Github
-      url: "https://github.com/yihui/hugo-paged"
-      weight: 10
-      params:
-        class: [optional]
+    - name: "关于"
+      url: "/cn/about"
+      weight: 1
+    - name: blog
+      url: "/en/"
+      weight: 2
+    - name: 日志
+      url: "/cn/"
+      weight: 3
+  en:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "/en/about/"
+      weight: 2
+    - name: "Blog"
+      url: "/en/"
+      weight: 3
+  cn:
+    - name: "首页"
+      url: "/"
+      weight: 1
+    - name: "关于"
+      url: "/cn/about"
+      weight: 2
+    - name: "日志"
+      url: "/cn/"
+      weight: 3
 
 params:
   description: "A website built through Hugo with the hugo-paged theme."
   logo:
     en:
-      alt: LOGO TEXT
+      alt: Xeon Chow
       img: # a path to the logo
-  footer: "&copy; [Yihui Xie](https://yihui.org) {Year}"
+  footer: "&copy; [Xeon Chow](https://enit.xyz) {Year}"
 
 markup:
   highlight:

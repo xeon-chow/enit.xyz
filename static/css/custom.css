@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  .main > pre {
+    width: 100%;
+    margin-left: auto;
+  }
+}
+
+h1.title::before{ content: "❀"; }
+
+.nav-top {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
