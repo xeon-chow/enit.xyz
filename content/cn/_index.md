@@ -1,4 +1,4 @@
 ---
-title: Blog
+title: 日志
 date: '2017-01-31'
 ---

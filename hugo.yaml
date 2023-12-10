@@ -16,15 +16,18 @@ permalinks:
 
 menu:
   main:
+    - name: "About"
+      url: "/en/about"
+      weight: 1
     - name: "关于"
       url: "/cn/about"
-      weight: 1
-    - name: blog
-      url: "/en/"
       weight: 2
-    - name: 日志
-      url: "/cn/"
+    - name: "blog"
+      url: "/en/"
       weight: 3
+    - name: "日志"
+      url: "/cn/"
+      weight: 4
   en:
     - name: "Home"
       url: "/"
@@ -35,6 +38,9 @@ menu:
     - name: "Blog"
       url: "/en/"
       weight: 3
+    - name: "中文"
+      url: "/cn/"
+      weight: 4
   cn:
     - name: "首页"
       url: "/"
@@ -45,13 +51,16 @@ menu:
     - name: "日志"
       url: "/cn/"
       weight: 3
+    - name: "EN"
+      url: "/en/"
+      weight: 4
 
 params:
   description: "A website built through Hugo with the hugo-paged theme."
   logo:
     en:
       alt: Xeon Chow
-      img: # a path to the logo
+      img: "/images/logo.png" # a path to the logo
   footer: "&copy; [Xeon Chow](https://enit.xyz) {Year}"
 
 markup:
