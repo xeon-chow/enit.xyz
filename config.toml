@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://enit.xyz/"
+baseURL = "/"
 title = "Xeon Chow"
 languageCode = "zh-CN"
 hasCJKLanguage = true
