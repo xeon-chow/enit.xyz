@@ -48,12 +48,12 @@ uglyURLs = false
 
 # URL structure
 [permalinks]
-    # categories = "/categories/:slug/"
+    categories = "/categories/:slug/"
     tags = "/tags/:slug/"
 
 # Taxonomies
 [taxonomies]
-    # category = "categories"
+    category = "categories"
     tag = "tags"
 
 # Modified date
@@ -1233,7 +1233,7 @@ uglyURLs = false
 
     enablePostTags = true
 
-    postTagsIcon = ""
+    postTagsIcon = "tags"
 
 
     ######################################
@@ -1538,10 +1538,10 @@ uglyURLs = false
     siteDescription = "Personal blog site of Xeon Chow"
     listDateFormat = "January 2"
     fontFamilyMenu = "'Jost', sans-serif"
-    fontFamilyTitle = "'Linden Hill', 'Palatino Linotype', 'Palatino LT STD', serif"
-    fontFamilyHeadings = "'Linden Hill', 'Palatino Linotype', 'Palatino LT STD', serif"
-    fontFamilyBody = "'Linden Hill', 'Palatino Linotype', 'Palatino LT STD', serif"
-    fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Linden+Hill:ital@0;1&display=swap"
+    fontFamilyTitle = "'Linden Hill', 'Palatino Linotype', 'Palatino LT STD', 'Noto Serif SC', serif"
+    fontFamilyHeadings = "'Linden Hill', 'Palatino Linotype', 'Palatino LT STD', 'Noto Serif SC', serif"
+    fontFamilyBody = "'Linden Hill', 'Palatino Linotype', 'Palatino LT STD', 'Noto Serif SC', serif"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Linden+Hill:ital@0;1family=Noto+Serif+SC:wght@400;500;700&family=Noto+Sans+SC:wght@300;400;500;&display=swap"
     lineHeight = 1.618
     enableParagraphIndent = false
     enableJustify = false
