@@ -215,6 +215,12 @@ uglyURLs = false
         weight = 1
         pre = "internal"
         post = ""
+    [[menu.main]]
+        pageref = "/xiao/"
+        name = "笑谈"
+        weight = 2
+        pre = "internal"
+        post = ""
     # [[menu.main]]
     #     pageref = "/categories/"
     #     name = "Categories"
@@ -230,14 +236,14 @@ uglyURLs = false
     [[menu.main]]
         pageref = "/about/"
         name = "关于"
-        weight = 2
+        weight = 3
         pre = "internal"
         post = ""
     [[menu.main]]
-        weight = 4
+        weight = 5
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 3
+        weight = 4
         identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
@@ -1503,7 +1509,7 @@ uglyURLs = false
     hasCJKLanguage = true
     copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 [languages.en.taxonomies]
-    # category = "categories"
+     category = "categories"
      tag = "tags"
 [languages.en.menu]
     # [[languages.en.menu.home]]
@@ -1527,10 +1533,17 @@ uglyURLs = false
         post = ""
         identifier = "posts"
     [[languages.en.menu.main]]
-        weight = 4
+        pageref = "/xiao/"
+        name = "Xiao"
+        weight = 3
+        pre = "internal"
+        post = ""
+        identifier = "xiao"
+    [[languages.en.menu.main]]
+        weight = 5
         identifier = "theme-switcher"
     [[languages.en.menu.main]]
-        weight = 3
+        weight = 4
         identifier = "lang-switcher"
 [languages.en.params]
     contentDir = "content/en"
