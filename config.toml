@@ -53,7 +53,7 @@ uglyURLs = false
 
 # Taxonomies
 [taxonomies]
-    category = "categories"
+    # category = "categories"
     tag = "tags"
 
 # Modified date
@@ -506,7 +506,7 @@ uglyURLs = false
     #       name of the folder under the
     #       site’s `content` directory.
 
-    # mainSections = ["posts"]
+    mainSections = ["posts", "xiao"]
 
 
     ######################################
@@ -1509,7 +1509,7 @@ uglyURLs = false
     hasCJKLanguage = true
     copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 [languages.en.taxonomies]
-     category = "categories"
+     # category = "categories"
      tag = "tags"
 [languages.en.menu]
     # [[languages.en.menu.home]]
