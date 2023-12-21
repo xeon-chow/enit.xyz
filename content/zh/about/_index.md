@@ -17,4 +17,4 @@ displayPublishedDate = false
 
 但不妨我依然想要有个私人的地方，可以畅所欲言，不受言论审查的限制。这里的文章，可能粗糙，无聊，充满谬误和偏见，但可以保证的是，他们都出自我的真心，以及绝不抄袭剽窃。哦，除了名为「笑谈」的分区，这个分区的文章均为我女朋友所写，并有署名。
 
-本站由一个名为Hugo的静态网站生成器生成，部署在免费的GitHub Pages上，并通过GitHub Actions自动构建。Hugo主题是来自reuixiy的MemE，一个简洁、优雅但特性齐全的主题，感谢他的无私奉献。
+本站由一个名为[Hugo](https://gohugo.io/)的静态网站生成器生成，部署在免费的[GitHub Pages](https://pages.github.com/)上，并通过[GitHub Actions](https://github.com/features/actions)自动构建。Hugo主题是来自[reuixiy](https://io-oi.me/about/)的[MemE](https://github.com/reuixiy/hugo-theme-meme)，一个简洁、优雅但特性齐全的主题，感谢他的无私奉献。
