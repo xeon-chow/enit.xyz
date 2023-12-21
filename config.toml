@@ -246,12 +246,59 @@ uglyURLs = false
         weight = 4
         identifier = "lang-switcher"
     # [[menu.main]]
-    #     weight = 8
+    #     weight = 6
     #     identifier = "search"
     #     post = "search"
 
+  ## Socials
 
+    [[menu.socials]]
+        url = "mailto:enitxeon@gmail.com"
+        weight = 3
+        name = ""
+        identifier = "mail"
+        pre = "external"
+        post = "envelope"
 
+    [[menu.socials]]
+        url = "https://instagram.com/xeon_chow/"
+        weight = 1
+        name = ""
+        identifier = "instagram"
+        pre = "external"
+        post = "instagram"
+
+    [[menu.socials]]
+        url = "https://www.threads.net/@xeon_chow"
+        weight = 2
+        name = ""
+        identifier = "threads"
+        pre = "external"
+        post = "threads"
+
+ ## 链接栏
+    [[menu.links]]
+        pageref = "/"
+        name = " "
+        identifier = "home"
+        weight = 1
+        pre = "internal"
+        post = "home"
+    [[menu.links]]
+        pageref = "/tags/"
+        name = " "
+        identifier = "tags"
+        weight = 2
+        pre = "internal"
+        post = "tags"
+
+    [[menu.links]]
+        url = "/rss.xml/"
+        weight = 3
+        name = ""
+        identifier = "rss"
+        pre = "external"
+        post = "rss"
 ##########################################
 # Theme Settings
 
@@ -1274,7 +1321,7 @@ uglyURLs = false
     #       categories or sections and are
     #       separated by vertical bar(|).
 
-    enableAboutPageMinimalFooter = false
+    enableAboutPageMinimalFooter = true
 
 
     ######################################
@@ -1545,6 +1592,48 @@ uglyURLs = false
     [[languages.en.menu.main]]
         weight = 4
         identifier = "lang-switcher"
+    [[language.en.menu.socials]]
+        url = "mailto:enitxeon@gmail.com"
+        weight = 3
+        name = ""
+        identifier = "mail"
+        pre = "external"
+        post = "envelope"
+    [[language.en.menu.socials]]
+        url = "https://instagram.com/xeon_chow/"
+        weight = 1
+        name = ""
+        identifier = "instagram"
+        pre = "external"
+        post = "instagram"
+    [[language.en.menu.socials]]
+        url = "https://www.threads.net/@xeon_chow"
+        weight = 2
+        name = ""
+        identifier = "threads"
+        pre = "external"
+        post = "threads"
+    [[language.en.menu.links]]
+        pageref = "/"
+        name = " "
+        identifier = "home"
+        weight = 1
+        pre = "internal"
+        post = "home"
+    [[language.en.menu.links]]
+        pageref = "/tags/"
+        name = " "
+        identifier = "tags"
+        weight = 2
+        pre = "internal"
+        post = "tags"
+    [[language.en.menu.links]]
+        url = "/rss.xml/"
+        weight = 3
+        name = ""
+        identifier = "rss"
+        pre = "external"
+        post = "rss"
 [languages.en.params]
     contentDir = "content/en"
     homePoetry = ["In the dark night", "Longing for a light of care", "In the daylight", "Desiring for the swallow of a black hole", "’Cause curiosity—seeks for what’s in the darkness"]
@@ -1554,7 +1643,7 @@ uglyURLs = false
     fontFamilyTitle = "'Linden Hill', 'Palatino Linotype', 'Palatino LT STD', 'Noto Serif SC', serif"
     fontFamilyHeadings = "'Linden Hill', 'Palatino Linotype', 'Palatino LT STD', 'Noto Serif SC', serif"
     fontFamilyBody = "'Linden Hill', 'Palatino Linotype', 'Palatino LT STD', 'Noto Serif SC', serif"
-    fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Linden+Hill:ital@0;1family=Noto+Serif+SC:wght@400;500;700&family=Noto+Sans+SC:wght@300;400;500;&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Linden+Hill:ital@0;1&family=Noto+Serif+SC:wght@400;500;700&family=Noto+Sans+SC:wght@300;400;500;&display=swap"
     lineHeight = 1.618
     enableParagraphIndent = false
     enableJustify = false
