@@ -1,6 +1,6 @@
 +++
 title = '再见贵阳'
-date = 2024-02-05T23:41:18+08:00
+date = 2024-02-05T02:41:18+08:00
 tags = ['life']
 slug = 'fairwell-guiyang'
 original = false
